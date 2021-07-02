@@ -19,7 +19,7 @@ toilet -f future "BlackDevilMHK"
 echo "-------------------------------------------------------"
 echo   "Author   : B2A6K D3V1L-MHK $white"
 echo   "Contact  : https://facebook.com/BlackDevilMHK $white"
-echo   "YouTube  : Black Devil MHK $white
+echo   "YouTube  : Black Devil MHK $white"
 echo "-------------------------------------------------------"
 echo "                           v2.0              " |
 ###################################################
@@ -29,7 +29,7 @@ trap ctrl_c INT
 ctrl_c() {
 clear
 echo  "Detected, Trying To Exit 🚪 ... "
-echo ""
+echo " "
 echo  "⚠️NOT FOR ILLEGEL USE⚠️"
 sleep 1
 echo ""
