@@ -21,7 +21,7 @@ echo   "Author   : B2A6K D3V1L-MHK $white"
 echo   "Contact  : https://facebook.com/BlackDevilMHK $white"
 echo   "YouTube  : Black Devil MHK $white"
 echo "-------------------------------------------------------"
-echo "                           v2.0              " |
+echo "                           v2.0              " |lolcat
 ###################################################
 # CTRL + C
 ###################################################
@@ -46,11 +46,12 @@ lagi=01
 while [ $lagi -lt 1];
 do
 echo ""
-echo -e "\e[1;101m\e[1;97m01\e[1;101m\e[0m\e[1;96m TOOL-X\e[0m\n";
+echo -e "\e[1;101m\e[1;97m01\e[1;101m\e[0m\e[1;96m TOOL-X\e[0m\n"
 
 echo ""
 echo  "╭─BlackDevilMHK"
-read -p "╰──►" pil;
+read -p "╰──►" pil
+
 #TOOL-X
 case $pil in
 01) clear
