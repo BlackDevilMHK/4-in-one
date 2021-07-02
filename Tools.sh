@@ -41,3 +41,9 @@ echo "COME BACK 🔜"
 sleep 1
 exit
 }
+
+lagi=01
+while [ $lagi -lt 20 ];
+do
+echo ""
+echo -e "\e[1;101m\e[1;97m01\e[1;101m\e[0m\e[1;96m TOOL-X\e[0m\n";
