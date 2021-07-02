@@ -58,3 +58,13 @@ toilet -f standard " BlackDevilMHK " -F gay
 git clone https://github.com/Rajkumrdusad/Tool-X
 cd Tool-X
 sh install.aex
+
+;;
+00) echo "Bye, this tool was created by : BlackDevilMHK"
+exit
+;;
+*) echo "sorry, the  option you looking is not found"
+esac
+done
+done
+=================="
