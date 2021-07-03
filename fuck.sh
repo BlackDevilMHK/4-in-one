@@ -51,3 +51,62 @@ echo -e "\e[1;101m\e[1;97m01\e[1;101m\e[0m\e[1;96m TOOL-X\e[0m\n";
 echo -e "\e[1;101m\e[1;97m02\e[1;101m\e[0m\e[1;96m LUCIFER\e[0m\n";
 echo -e "\e[1;101m\e[1;97m02\e[1;101m\e[0m\e[1;96m GMAILBRUTERV2\e[0m\n";
 echo -e "\e[1;101m\e[1;97m03\e[1;101m\e[0m\e[1;96m WEEMAN\e[0m\n";
+echo ""
+echo  "╭─BlackDevilMHK"
+read -p "╰──►" pil;
+
+
+#TOOL-X
+
+
+case $pil in
+01) clear
+toilet -f standard " ANONYMINHACK5 " -F gay
+git clone https://github.com/Rajkumrdusad/Tool-X
+cd Tool-X
+sh install.aex
+ 
+
+;;
+
+
+#LUCIFER
+
+
+02) clear
+toilet -f standard " ANONYMINHACK5 " -F gay
+git clone https://github.com/rixon-cochi/Lucifer.git
+cd Lucifer
+chmod +x *
+bash setup.sh
+ls
+bash instacracker.sh
+
+
+;;
+
+
+#GMAILBRUTERV2
+
+
+03) clear
+toilet -f standard " ANONYMINHACK5 "
+git clone https://github.com/DEMON1A/GmailBruterV2
+cd GmailBruterV2
+python3 GmailBruterV2.py
+
+
+;;
+
+
+#WEEMAN	
+
+
+04) clear
+toilet -f standard " ANONYMINHACK5 " -F gay
+git clone https://github.com/evait-security/weeman.git
+cd weeman
+python2 weeman.py
+
+
+;;
