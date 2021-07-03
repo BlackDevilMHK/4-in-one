@@ -47,67 +47,64 @@ lagi=01
 while [ $lagi -lt 04 ];
 do
 echo ""
-echo -e "\e[1;101m\e[1;97m01\e[1;101m\e[0m\e[1;96m TOOL-X\e[0m\n";
-echo -e "\e[1;101m\e[1;97m02\e[1;101m\e[0m\e[1;96m LUCIFER\e[0m\n";
-echo -e "\e[1;101m\e[1;97m02\e[1;101m\e[0m\e[1;96m GMAILBRUTERV2\e[0m\n";
-echo -e "\e[1;101m\e[1;97m03\e[1;101m\e[0m\e[1;96m WEEMAN\e[0m\n";
+echo -e "\e[1;101m\e[1;97m01\e[1;101m\e[0m\e[1;96m EXTRA-KEY\e[0m\n";
+echo -e "\e[1;101m\e[1;97m02\e[1;101m\e[0m\e[1;96m FB-VIDEO-DOWNLOADER\e[0m\n";
+echo -e "\e[1;101m\e[1;97m02\e[1;101m\e[0m\e[1;96m BRUTE-FORCE\e[0m\n";
+echo -e "\e[1;101m\e[1;97m03\e[1;101m\e[0m\e[1;96m TERMUX-LOGIN\e[0m\n";
 echo ""
 echo  "╭─BlackDevilMHK"
 read -p "╰──►" pil;
 
 
-#TOOL-X
+#EXTRA-KEY
 
 
 case $pil in
 01) clear
 toilet -f standard " BlackDevilMHK " -F gay
-git clone https://github.com/Rajkumrdusad/Tool-X
-cd Tool-X
-sh install.aex
- 
+git clone https://github.com/BlackDevilMHK/extra-key
+cd extra-key
+bash extra-key.sh
+
 
 ;;
 
 
-#LUCIFER
+#FB-VIDEO-DOWNLOADER
 
 
 02) clear
 toilet -f standard " BlackDevilMHK " -F gay
-git clone https://github.com/rixon-cochi/Lucifer.git
-cd Lucifer
-chmod +x *
-bash setup.sh
-ls
-bash instacracker.sh
+git clone https://github.com/BlackDevilMHK/fb-video-downloader
+cd fb-video-downloader
+pip install wget
+python dl.py
 
 
 ;;
 
 
-#GMAILBRUTERV2
+#BRUTE-FORCE
 
 
 03) clear
 toilet -f standard " BlackDevilMHK "
-git clone https://github.com/DEMON1A/GmailBruterV2
-cd GmailBruterV2
-python3 GmailBruterV2.py
+git clone https://github.com/BlackDevilMHK/Firecrack
+cd Firecrack
+bash firecrack.sh
 
 
 ;;
 
 
-#WEEMAN	
+#TERMUX-LOGIN
 
 
 04) clear
 toilet -f standard " BlackDevilMHK " -F gay
-git clone https://github.com/evait-security/weeman.git
-cd weeman
-python2 weeman.py
-
+git clone https://github.com/BlackDevilMHK/tmux-login
+cd tmux-login
+python login.py
 
 ;;
 
