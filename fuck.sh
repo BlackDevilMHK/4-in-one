@@ -61,7 +61,7 @@ read -p "╰──►" pil;
 
 case $pil in
 01) clear
-toilet -f standard " ANONYMINHACK5 " -F gay
+toilet -f standard " BlackDevilMHK " -F gay
 git clone https://github.com/Rajkumrdusad/Tool-X
 cd Tool-X
 sh install.aex
@@ -74,7 +74,7 @@ sh install.aex
 
 
 02) clear
-toilet -f standard " ANONYMINHACK5 " -F gay
+toilet -f standard " BlackDevilMHK " -F gay
 git clone https://github.com/rixon-cochi/Lucifer.git
 cd Lucifer
 chmod +x *
@@ -90,7 +90,7 @@ bash instacracker.sh
 
 
 03) clear
-toilet -f standard " ANONYMINHACK5 "
+toilet -f standard " BlackDevilMHK "
 git clone https://github.com/DEMON1A/GmailBruterV2
 cd GmailBruterV2
 python3 GmailBruterV2.py
@@ -103,7 +103,7 @@ python3 GmailBruterV2.py
 
 
 04) clear
-toilet -f standard " ANONYMINHACK5 " -F gay
+toilet -f standard " BlackDevilMHK " -F gay
 git clone https://github.com/evait-security/weeman.git
 cd weeman
 python2 weeman.py
