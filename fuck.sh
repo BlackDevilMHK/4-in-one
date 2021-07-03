@@ -49,8 +49,8 @@ do
 echo ""
 echo -e "\e[1;101m\e[1;97m01\e[1;101m\e[0m\e[1;96m EXTRA-KEY\e[0m\n";
 echo -e "\e[1;101m\e[1;97m02\e[1;101m\e[0m\e[1;96m FB-VIDEO-DOWNLOADER\e[0m\n";
-echo -e "\e[1;101m\e[1;97m02\e[1;101m\e[0m\e[1;96m BRUTE-FORCE\e[0m\n";
-echo -e "\e[1;101m\e[1;97m03\e[1;101m\e[0m\e[1;96m TERMUX-LOGIN\e[0m\n";
+echo -e "\e[1;101m\e[1;97m03\e[1;101m\e[0m\e[1;96m BRUTE-FORCE\e[0m\n";
+echo -e "\e[1;101m\e[1;97m04\e[1;101m\e[0m\e[1;96m TERMUX-LOGIN\e[0m\n";
 echo ""
 echo  "╭─BlackDevilMHK"
 read -p "╰──►" pil;
