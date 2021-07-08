@@ -49,11 +49,12 @@ exit
 apt update
 apt upgrade -y
 pkg install ruby -y 
-gem install toilet -y 
-pkg install lolcat
+pkg install toilet -y 
+pip install lolcat
 pkg install figlet
 apt install git php openssh curl -y
 pkg install python2 -y 
+pkg install python -y
 pkg install nano php -y
 pip install mechanize
 pip install --upgrade pip
