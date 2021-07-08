@@ -6,6 +6,7 @@ clear
 
 echo ""
 echo -e "SUBSCRIBE MY CHANNEL"
+xdg-open https://youtube.com/channel/UCfRYPIUkuagLYibzF0o6Qgw
 echo ""
 
 echo -e "\e[101m Press Enter \e[0m"
