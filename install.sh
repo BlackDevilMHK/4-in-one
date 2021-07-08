@@ -50,7 +50,7 @@ apt update
 apt upgrade -y
 pkg install ruby -y 
 pkg install toilet -y 
-pip install lolcat
+gem install lolcat
 pkg install figlet
 apt install git php openssh curl -y
 pkg install python2 -y 
